@@ -154,13 +154,15 @@
   </div>
 
 </div>
+<h3 class="bien"  style="padding:40px" >Membres</h3>
+
 <div class="container mt-3" style="display:flex" id="mem">
       <div class="card" style="width:600px;margin:20px;">
     <img class="card-img-top" src="pp.jpg" alt="Card image" style="width:100%;height:300px;">
     <div class="card-body">
       <h4 class="card-title">Partie Professorale</h4>
       <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">Voir Page</a>
+      <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
     </div>
   </div>
   <div class="card" style="width:600px;margin:20px;">
@@ -168,10 +170,12 @@
     <div class="card-body">
       <h4 class="card-title">Partie Etudiante</h4>
       <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">Voir Page</a>
+      <a href="membre2.php" class="btn btn-primary" target="_blank">Voir Page</a>
     </div>
   </div>
 </div>
+<h3 class="bien"  style="padding:40px" >Formations</h3>
+
 <div id="formation" style="display:flex;background-color:#ff8000;width: 1350px;margin-top:50px;margin-bottom:50px;">
       <div class="container mt-3" style="display:flex;background-color:#ff8000;width: 1800px;">
   <div class="card" style="width:750px;margin:10px;">
