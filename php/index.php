@@ -46,8 +46,8 @@
         </li>
          <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Projets terminés</a>
-            <a class="dropdown-item" href="#am">Projets en cours</a>
+            <a class="dropdown-item" href="">Projets terminés</a>
+            <a class="dropdown-item" href="projetst.php">Projets en cours</a>
             
 
         </div>
@@ -154,62 +154,72 @@
   </div>
 
 </div>
-<h3 class="bien"  style="padding:40px" >Membres</h3>
 
-<div class="container mt-3" style="display:flex" id="mem">
-      <div class="card" style="width:600px;margin:20px;">
-    <img class="card-img-top" src="pp.jpg" alt="Card image" style="width:100%;height:300px;">
-    <div class="card-body">
-      <h4 class="card-title">Partie Professorale</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
+<h3 class="bien"  style="padding:40px" >Membres</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px">
+  <div class="col" >
+    <div class="card">
+      <img src="pp.jpg" class="card-img-top" style="width:100%;height:300px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Partie Professorale</h5>
+        <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
+      </div>
     </div>
   </div>
-  <div class="card" style="width:600px;margin:20px;">
-    <img class="card-img-top" src="pe.jpg" alt="Card image" style="width:100%;height: 300px;">
-    <div class="card-body">
-      <h4 class="card-title">Partie Etudiante</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="membre2.php" class="btn btn-primary" target="_blank">Voir Page</a>
+  <div class="col">
+    <div class="card">
+      <img src="pe.jpg" class="card-img-top" alt="..." style="width:400px;height: 300px;">
+      <div class="card-body">
+        <h5 class="card-title">Partie Etudiante</h5>
+        <a href="membre2.php" class="btn btn-primary" target="_blank">Voir Page</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h3 class="bien"  style="padding:40px" >Formations</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px;background-color:#FF7E00;">
+  <div class="col">
+    <div class="card h-100">
+      <img src="gei.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Génie Informatique et sécurité</h5>
+        <a href="https://ipm-ipsa.com/genie-informatique/" target="_blank" class="btn btn-primary">Voir Page</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="gem.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Génie Electromécanique</h5>
+        <a href="https://ipm-ipsa.com/genie-electromecanique/" target="_blank" class="btn btn-primary">Voir Page</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="gc.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Génie Civil</h5>
+        <a href="https://ipm-ipsa.com/genie-civil/" target="_blank" class="btn btn-primary">Voir Page</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="gdp.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Génie des procédés</h5>
+        <a href="https://ipm-ipsa.com/genie-des-procedes/" target="_blank" class="btn btn-primary">Voir Page</a>
+      </div>
     </div>
   </div>
 </div>
-<h3 class="bien"  style="padding:40px" >Formations</h3>
 
-<div id="formation" style="display:flex;background-color:#ff8000;width: 1350px;margin-top:50px;margin-bottom:50px;">
-      <div class="container mt-3" style="display:flex;background-color:#ff8000;width: 1800px;">
-  <div class="card" style="width:750px;margin:10px;">
-    <img class="card-img-top" src="gei.jpg" alt="Card image" style="width:100%;height: 200px;">
-    <div class="card-body">
-      <h4 class="card-title">Génie Informatique et sécurité</h4>
-      <p class="card-text"></p>
-      <a href="https://ipm-ipsa.com/genie-informatique/" target="_blank" class="btn btn-primary">Voir Page</a>
-    </div>
-  </div>
-  <div class="card" style="width:750px;margin:10px;">
-    <img class="card-img-top" src="gem.jpg" alt="Card image" style="width:100%;height: 200px;">
-    <div class="card-body">
-      <h4 class="card-title">Génie Electromécanique</h4>
-      <p class="card-text"></p>
-      <a href="https://ipm-ipsa.com/genie-electromecanique/" target="_blank" class="btn btn-primary">Voir Page</a>
-    </div>
-  </div>
-  <div class="card" style="width:750px;margin:10px;">
-    <img class="card-img-top" src="gc.jpg" alt="Card image" style="width:100%;height: 200px;">
-    <div class="card-body">
-      <h4 class="card-title">Génie Civil</h4>
-      <p class="card-text"></p>
-      <a href="https://ipm-ipsa.com/genie-civil/" target="_blank" class="btn btn-primary">Voir Page</a>
-    </div>
-  </div>
-  <div class="card" style="width:750px;margin:10px;">
-    <img class="card-img-top" src="gdp.jpg" alt="Card image" style="width:100%;height: 200px;">
-    <div class="card-body">
-      <h4 class="card-title">Génie des procédés</h4>
-      <p class="card-text"></p>
-      <a href="https://ipm-ipsa.com/genie-des-procedes/" target="_blank" class="btn btn-primary">Voir Page</a>
-    </div>
-  </div>
 </div>
 </div>
         <div id="fm" class="modal">
@@ -400,7 +410,7 @@
     </style>
   <footer id="footer">
      <div class="foot">
-    <h2>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h2>
+    <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
                     <p>GALAXY EDU S. A. R. L</br>
                     Tél: 77 230 30 92 / 76 332 05 02 </p>
   </div>

@@ -4,6 +4,12 @@ body{
     padding: 0;
     font-size: 16px;
 }
+h4 {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px;
+}
 @keyframes exemple {
     from {border-color: #293245 solid;
         background-color: white;}
@@ -48,9 +54,12 @@ body{
     background-size: cover;
     height: 550px;
 }
+
+
 header {
     color: #fff;
     font-size: 14px;
+
     
 }
 .header-content h1{
@@ -89,10 +98,10 @@ footer {
 }
 .foot {
     text-align: center;
-    font-size:14px;
+    font-size:10px;
     color: #fff;
 }
-.foot h2 {
+.foot h3 {
     padding-top: 10px;
     color:#FF7E00;
 }

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +14,60 @@
     <title>Membres</title>
 </head>
 <body>
+    <header> 
+      <nav class="navbar navbar-expand-md " >
+          <a class="navbar-brand" href=""> <img src="logo.png" alt="" style="width:50px"></a>
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+          <div class="collapse navbar-collapse justify-content-between" id="nav">
+          <ul class="navbar-nav">
+         <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#formation">Formations</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#For">Actualité</a></li>
+
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
+         <div class="dropdown-menu">
+             <a class="dropdown-item" href="#mdd">Mots du Directeur</a>
+             <a class="dropdown-item" href="#orga">Organigramme</a>
+             <a class="dropdown-item" href="#mem">Membres</a>
+         </div>
+        </li>
+        <li class="navbar-item"> <a class="nav-link px-3" href="#fm">Conditions d'admissions</a></li>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Recherche Scientifique</a>
+         <div class="dropdown-menu">
+             <a class="dropdown-item" href="">Mémoires Licence3</a>
+             <a class="dropdown-item" href="">Mémoire Master</a>
+             <a class="dropdown-item" href=""></a>
+         </div>
+        </li>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Projets terminés</a>
+            <a class="dropdown-item" href="#am">Projets en cours</a>
+            
+
+        </div>
+         </li>
+        </ul>
+            </div>
+      </nav>
+    </header>
+      <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
     <div class="container">
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg"  alt="rover" />
           </div>
-          <div class="card-body">
+          <div class="card-body" >
             <span class="tag tag-teal">Informaticien</span>
             <h4>
                 Babacar Sow
@@ -25,7 +79,7 @@
 
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -39,9 +93,9 @@
 
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
-          <div class="card-body">
+          <div class="card-body" >
             <span class="tag tag-teal">Informaticien</span>
             <h4>
             Mamadou Fadel DIOP
@@ -53,7 +107,7 @@
     
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -67,7 +121,7 @@
       
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -81,7 +135,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -95,7 +149,7 @@
       
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -110,7 +164,7 @@
         
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg" style="height:300px" alt="rover" />
+            <img src="pdpf.jpg"  alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -124,7 +178,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -138,7 +192,7 @@
         
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -152,7 +206,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -166,7 +220,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -180,7 +234,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -194,7 +248,7 @@
      
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg"  alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -209,7 +263,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -223,7 +277,7 @@
        
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -238,7 +292,7 @@
         
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -251,7 +305,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -265,7 +319,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -279,7 +333,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -293,7 +347,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -306,7 +360,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -320,7 +374,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -333,7 +387,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -347,7 +401,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -360,7 +414,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdpf.jpg"  style="height:300px" alt="rover" />
+            <img src="pdpf.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
@@ -374,7 +428,7 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <img src="pdp.jpg"  style="height:300px" alt="rover" />
+            <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
