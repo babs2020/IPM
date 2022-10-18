@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <link rel= "stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -17,7 +18,7 @@
     <div class="entet">
         <header> 
       <nav class="navbar navbar-expand-md " >
-          <a class="navbar-brand" href=""> <img src="logo.png" alt="" style="width:60px"></a>
+          <a class="navbar-brand" href=""> <img src="logo.png" alt="" style="width:60px;border-radius:90%"></a>
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -26,8 +27,8 @@
           <div class="collapse navbar-collapse justify-content-between" id="nav">
           <ul class="navbar-nav">
          <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#formation">Formations</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#For">Actualité</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#for">Formations</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php">Actualité</a></li>
 
          <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
          <div class="dropdown-menu">
@@ -44,14 +45,14 @@
              <a class="dropdown-item" href=""></a>
          </div>
         </li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
-        <div class="dropdown-menu">
+        <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
+          <div class="dropdown-menu">
             <a class="dropdown-item" href="">Projets terminés</a>
             <a class="dropdown-item" href="projetst.php">Projets en cours</a>
-            
+          </div>
+        </li>
+        <li class="navbar-item" id="con"> <a class="nav-link px-3" href="#connex" style="color:#fff">Espace Admin</a></li>
 
-        </div>
-    </li>
         </ul>
             </div>
       </nav>
@@ -155,11 +156,11 @@
 
 </div>
 
-<h3 class="bien"  style="padding:40px" >Membres</h3>
+<h3 class="bien"  style="padding:40px" id="mem">Membres</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px">
   <div class="col" >
     <div class="card">
-      <img src="pp.jpg" class="card-img-top" style="width:100%;height:300px;" alt="...">
+      <img src="pp.jpeg" class="card-img-top" style="width:100%;height:200px;" alt="...">
       <div class="card-body">
         <h5 class="card-title">Partie Professorale</h5>
         <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
@@ -168,7 +169,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="pe.jpg" class="card-img-top" alt="..." style="width:400px;height: 300px;">
+      <img src="pe.jpeg" class="card-img-top" alt="..." style="width:100%;height:200px;">
       <div class="card-body">
         <h5 class="card-title">Partie Etudiante</h5>
         <a href="membre2.php" class="btn btn-primary" target="_blank">Voir Page</a>
@@ -179,8 +180,8 @@
 </div>
 
 <h3 class="bien"  style="padding:40px" >Formations</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px;background-color:#FF7E00;">
-  <div class="col">
+<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:50px;background-color:#FF7E00;">
+  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gei.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -190,7 +191,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gem.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -200,7 +201,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gc.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -209,7 +210,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gdp.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -222,81 +223,7 @@
 
 </div>
 </div>
-        <div id="fm" class="modal">
-          <div class="modal_content">
-          <div class="login-form"> 
-            <form action="preinscription.php" method="post">
-            <a href="#" class="modal_close">&times;</a>
-        <div class="wrapper">
-          <div class="title">
-              Préinscription
-          </div>
-          <div class="form">
-              <div class="input_field">
-                  <label for="">Nom</label>
-                  <input type="text" class="input" name="nom" class="form-control" Required  autocomplete="off">
-              </div>
-              <div class="input_field">
-                  <label for="">Prenom(s)</label>
-                  <input type="text" class="input" name="prenom" class="form-control" Required  autocomplete="off">
-              </div>
-              <div class="input_field">
-                  <label for="">Email</label>
-                  <input type="email" class="input" name="email" class="form-control" Required  autocomplete="off">
-              </div>
-              <div class="input_field">
-                  <label for="">Numéro de téléphone</label>
-                  <input type="tel" class="input" name="numero" class="form-control" Required  autocomplete="off">
-              </div>
-              <div class="input_field">
-                  <label for="">Genre</label>
-                  <div class="custom_select">
-                      <select  name="genre" class="form-control" Required  autocomplete="off">
-                          <option value="select">Select</option>
-                          <option value="femme">Femme</option>
-                          <option value="homme">Homme</option>
-                      </select>
-                  </div>
-              </div>
-              <div class="input_field">
-                  <label for="">Formations</label>
-                  <div class="custom_select">
-                      <select id="" name="formation" class="form-control" Required  autocomplete="off">
-                          <option value="">Select</option>
-                          <option value="Génie Informatique" >Génie Informatique</option>
-                          <option value="Génie Electrique">Génie Electrique</option>
-                          <option value="Génie Civil">Génie Civil</option>
-                          <option value="Génie des procédés">Génie des procédés</option>
-                      </select>
-                  </div>
-              </div>
-              <div class="input_field">
-                  <label for="">Niveau</label>
-                  <div class="custom_select">
-                      <select id="" name="niveau"  class="form-control" Required  autocomplete="off">
-                          <option value="">Select</option>
-                          <option value="Licence1">Licence1</option>
-                          <option value="Licence2">Licence2</option>
-                          <option value="Licence3">Licence3</option>
-                          <option value="Master1">Master1</option>
-                          <option value="Master2">Master2</option>
-                      </select>
-                  </div>
-              </div>
-              <div class="input_field">
-                  <label for="">Motivation</label>
-                  <textarea class="textarea" name="motivation" class="form-control" Required  autocomplete="off"></textarea>
-              </div>
-              <div class="input_field">
-              <input type="submit" value="Envoyer" class="btn-">
-              </div>
-          </div>
-      </div>
-      </form>
-    </div>
-  </div>
-  </div>
- 
+
   <div id="connex" class="modal1">
     <div class="modal_content1">
         <div class="login-form">
@@ -318,13 +245,11 @@
                     </div>
                 <input type="password" name="password" class="form-control" Required  autocomplete="off">
             </div>
-            <label> <input type="checkbox">Se souvenir de moi</label>
             <div class="inputBox1">
                 <div class="box">
-                   <input type="submit" value="Se connecter">
+                   <input type="submit"style="margin-top:70px" value="Se connecter">
                 </div>
             </div>
-            <a href="#" class="Forgot">Mot de passe oublié ?</a>
         </div>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
@@ -334,74 +259,6 @@
   </div>
   <nav>
 
-  <div id="am" class="modal2">  
-    <div class="modal_content2">  
-    <div class="login-form">
-    <form action="inscription_traitement.php" method="post">
-    <a href="#" class="modal_close2">&times;</a>
-    <div class="wrapper">
-      <div class="title">
-         Inscription
-      </div>
-      <div class="form">
-          <div class="input_field">
-              <label for="">Nom</label>
-              <input type="text" class="input" name="nom" class="form-control" Required autocomplete="off">
-          </div>
-          <div class="input_field">
-              <label for="">Prenom(s)</label>
-              <input type="text" class="input" name="prenom" class="form-control" Required autocomplete="off">
-          </div>
-          <div class="input_field">
-              <label for="">Email</label>
-              <input type="email" class="input" name="email" class="form-control" Required autocomplete="off">
-          </div>
-          <div class="input_field">
-              <label for="">Numéro de téléphone</label>
-              <input type="tel" class="input" name="numero" class="form-control" Required autocomplete="off">
-          </div>
-          <div class="input_field">
-            <label for="">Mot de pass</label>
-            <input type="password" class="input" name="password" class="form-control" Required autocomplete="off">
-        </div>
-        <div class="input_field">
-          <label for="">Retapez le mot de pass</label>
-          <input type="password" class="input" name="password_retype" class="form-control" Required autocomplete="off">
-      </div>
-          <div class="input_field">
-              <label for="">Formations</label>
-              <div class="custom_select">
-                  <select name="formation" id="" class="form-control" Required  autocomplete="off">
-                      <option value="">Select</option>
-                      <option value="Génie Informatique">Génie Informatique</option>
-                      <option value="Génie Electrique">Génie Electrique</option>
-                      <option value="Génie Civil">Génie Civil</option>
-                      <option value="Génie des procédés">Génie des procédés</option>
-                  </select>
-              </div>
-          </div>
-          <div class="input_field">
-              <label for="">Niveau</label>
-              <div class="custom_select">
-                  <select name="niveau" id="" class="form-control" Required autocomplete="off">
-                      <option value="">Select</option>
-                      <option value="Licence1">Licence1</option>
-                      <option value="Licence2">Licence2</option>
-                      <option value="Licence3">Licence3</option>
-                      <option value="Master1">Master1</option>
-                      <option value="Master2">Master2</option>
-                  </select>
-              </div>
-          </div>
-          <div class="input_field">
-              <input type="submit" value="S'inscrire" class="btn-">
-          </div>
-      </div>
-      </div>
-  </form>
-    </div>
-    </div>
-    </div>
     <style>
     .login-form {
         width: 100%;
@@ -409,12 +266,51 @@
     }
     </style>
   <footer id="footer">
-     <div class="foot">
-    <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
-                    <p>GALAXY EDU S. A. R. L</br>
-                    Tél: 77 230 30 92 / 76 332 05 02 </p>
-  </div>
-    </footer>  
+
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;">
+      <div class="col" style="margin:10px;min-width:200px ;height:150px">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Menu</h5>
+            <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="margin:10px;min-width:200px ;height:150px">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Contacts</h5>
+            <a href="tel:+221772303092" target="_blank" class="btn btn-primary">Orange</a>
+            <a href="tel:+22176 332 05 02" target="_blank" class="btn btn-primary">Tigo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="margin:10px;min-width:200px ; height:150px">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Réseaux Sociaux</h5>
+            <a href="#" class="fa fa-facebook" style="margin: 8px;"></a>
+            <a href="#" class="fa fa-whatsapp" style="margin: 8px;"></a>
+            <a href="#" class="fa fa-instagram" style="margin: 8px;"></a>
+            <a href="#" class="fa fa-twitter" style="margin: 8px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="margin:10px;min-width:200px ;height:150px">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Actualités Récentes</h5>
+            <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="foot" style="background-color:#0f1a33;">
+      <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
+      <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
+    </div> 
+  </footer>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
