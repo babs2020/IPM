@@ -15,7 +15,7 @@
      <title>IPM</title>
   </head>
   <body>
-    <div class="entet">
+    <div class="entet" id="menu">
         <header> 
       <nav class="navbar navbar-expand-md " >
           <a class="navbar-brand" href=""> <img src="logo.png" alt="" style="width:60px;border-radius:90%"></a>
@@ -265,14 +265,22 @@
         margin: 50px auto;
     }
     </style>
-  <footer id="footer">
+  <footer id="footer" >
 
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;">
-      <div class="col" style="margin:10px;min-width:200px ;height:150px">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
+      <div class="col" style="margin:10px;min-width:200px ;height:300px">
         <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">Menu</h5>
-            <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
+            <ul>
+              <li><a class="active" href="index.php">Accueil</a></li>
+              <li><a href="#for">Formations</a></li>
+              <li><a href="actu.php">Actualités</a></li>
+              <li><a href="#mdd">Présentation</a></li>
+              <li><a href="#about">Conditions d'admissions</a></li>
+              <li><a href="#about">Recherche Scientifique</a></li>
+              <li><a href="projetst.php">Production Scientique</a></li>
+            </ul>
           </div>
         </div>
       </div>
