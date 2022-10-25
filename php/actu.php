@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+<link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
+
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="style.css">
     <!-- Required meta tags -->
@@ -28,26 +29,26 @@
           </button>
       <div class="collapse navbar-collapse justify-content-between" id="nav">
         <ul class="navbar-nav">
-         <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="index.php#for">Formations</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php" style="color:white;">Actualité</a></li>
+         <li class="navbar-item"> <a class="nav-link px-3" href="index.php" style=" font-family:Camellio ;font-size:20px;">Accueil</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="index.php#for" style=" font-family:Camellio ;font-size:20px;">Formations</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php" style="color:white;font-family:Camellio ;font-size:20px;">Actualité</a></li>
 
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Presentation</a>
           <div class="dropdown-menu">
              <a class="dropdown-item" href="index.php#mdd">Mots du Directeur</a>
              <a class="dropdown-item" href="index.php#orga">Organigramme</a>
              <a class="dropdown-item" href="index.php#mem">Membres</a>
           </div>
          </li>
-         <li class="navbar-item"> <a class="nav-link px-3" href="#fm">Conditions d'admissions</a></li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Recherche Scientifique</a>
+         <li class="navbar-item"> <a class="nav-link px-3" href="#fm" style=" font-family:Camellio ;font-size:20px;">Conditions d'admissions</a></li>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Recherche Scientifique</a>
          <div class="dropdown-menu">
              <a class="dropdown-item" href="">Mémoires Licence3</a>
              <a class="dropdown-item" href="">Mémoire Master</a>
              <a class="dropdown-item" href=""></a>
          </div>
          </li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Production Scientifique</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="">Projets terminés</a>
             <a class="dropdown-item" href="projetst.php">Projets en cours</a>
@@ -55,13 +56,13 @@
 
           </div>
          </li>
-         <li class="navbar-item" id="con"> <a class="nav-link px-3" href="index.php#connex" style="color:#fff">Espace Admin</a></li>
+         <li class="navbar-item" id="con"> <a class="nav-link px-3" href="index.php#connex" style="color:#fff;font-family:Camellio ;font-size:20px;">Espace Admin</a></li>
 
         </ul>
       </div>
       </nav>
     </header>
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:50px;margin-top:100px;">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:130px;margin-top:100px;">
   <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="semi.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
