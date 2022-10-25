@@ -31,7 +31,7 @@
         <ul class="navbar-nav">
          <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
          <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="index.php#for">Formations</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php">Actualité</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php" style="color:white;">Actualité</a></li>
 
          <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
           <div class="dropdown-menu">
@@ -62,7 +62,7 @@
       </div>
       </nav>
     </header>
-    <a href="http://" ><p style="margin:50px; text-align:center;"> Portefeuille de gestion des établissements</p></a>
+    <a href="http://" ><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Portefeuille de gestion des établissements</p></a>
  
     <div class="container" >
         <div class="card" >
@@ -106,7 +106,7 @@
           </div>
         </div>
     </div>
-    <a href="" ><p style="margin:50px; text-align:center;">Système d’alerte local pour UCG</p></a>
+    <a href="" ><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center">Système d’alerte local pour UCG</p></a>
 
     <div class="container" >
         <div class="card" >
@@ -166,7 +166,7 @@
           </div>
         </div>
     </div>
-    <a href=""><p style="margin:50px; text-align:center;"> Plateforme de recensement national</p></a>
+    <a href=""><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Plateforme de recensement national</p></a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -210,7 +210,7 @@
           </div>
         </div>
     </div>
-    <a href=""><p style="margin:50px; text-align:center;">Mécanisme d’optimisation des énergies utilisant la logique
+    <a href=""><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center">Mécanisme d’optimisation des énergies utilisant la logique
 floue</p></a>
     <div class="container" >
         <div class="card" >
@@ -277,7 +277,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href="" ><p style="margin:50px; text-align:center;"> Conception de filtres automatisés</p></a>
+    <a href="" ><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Conception de filtres automatisés</p></a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -320,7 +320,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href="" ><p style="margin:50px; text-align:center;"> Plateforme de gestion hospitalière et télétraitement médical</p></a>
+    <a href="" ><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Plateforme de gestion hospitalière et télétraitement médical</p></a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -376,7 +376,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href=""><p style="margin:50px; text-align:center;">Système de traitement des eaux à Ross Betio</p></a>
+    <a href=""><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center">Système de traitement des eaux à Ross Betio</p></a>
 
     <div class="container" >
         <div class="card" >
@@ -436,7 +436,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href=""><p style="margin:50px; text-align:center;">Construction de villa en base de résidu du typha</p></a>
+    <a href=""><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center">Construction de villa en base de résidu du typha</p></a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -495,7 +495,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href=""  ><p style="margin:50px; text-align:center;"> Mécanisme de covoiturage</p> </a>
+    <a href=""  ><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Mécanisme de covoiturage</p> </a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -538,7 +538,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href=""><p style="margin:50px; text-align:center;">SSO System and lost cards recovery</p></a>
+    <a href=""><p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center">SSO System and lost cards recovery</p></a>
     <div class="container" >
         <div class="card" >
           <div class="card-header" >
@@ -581,7 +581,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-    <a href="" > <p style="margin:50px; text-align:center;"> Système de télécontrôle et de télégestion des objets électrique</p></a>
+    <a href="" > <p style="margin:100px; text-align:center; font-size:20px;color:#fff ;border-radius:50px;margin-top:100px;background-color:#293245;text-align:center"> Système de télécontrôle et de télégestion des objets électrique</p></a>
 
     <div class="container" >
         <div class="card" >
@@ -625,7 +625,7 @@ floue</p></a>
           </div>
         </div>
     </div>
-   
+    <div style="margin:100px"></div>
     <footer id="footer" >
 
     <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
@@ -675,7 +675,7 @@ floue</p></a>
       </div>
 
     </div>
-    <div class="foot" style="background-color:#0f1a33;">
+    <div class="foot" style="background-color:#0f1a33;width:1358px;">
       <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
       <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
     </div> 

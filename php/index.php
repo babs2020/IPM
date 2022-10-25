@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
+                
     <link rel= "stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -15,9 +17,9 @@
      <title>IPM</title>
   </head>
   <body>
-    <div class="entet" id="menu">
+    <div class="entet" id="menu" >
         <header> 
-      <nav class="navbar navbar-expand-md " >
+      <nav class="navbar navbar-expand-md "  >
           <a class="navbar-brand" href=""> <img src="logo.png" alt="" style="width:60px;border-radius:90%"></a>
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -26,32 +28,32 @@
           </button>
           <div class="collapse navbar-collapse justify-content-between" id="nav">
           <ul class="navbar-nav">
-         <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#for">Formations</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php">Actualité</a></li>
+         <li class="navbar-item"> <a class="nav-link px-3" href="index.php" style=" font-family:Camellio ;font-size:20px;">Accueil</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="#for" style=" font-family:Camellio ;font-size:20px;">Formations</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php" style=" color:white;font-family:Camellio ;font-size:20px;">Actualité</a></li>
 
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Presentation</a>
          <div class="dropdown-menu">
              <a class="dropdown-item" href="#mdd">Mots du Directeur</a>
              <a class="dropdown-item" href="#orga">Organigramme</a>
              <a class="dropdown-item" href="#mem">Membres</a>
          </div>
         </li>
-        <li class="navbar-item"> <a class="nav-link px-3" href="#fm">Conditions d'admissions</a></li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Recherche Scientifique</a>
+        <li class="navbar-item"> <a class="nav-link px-3" href="#fm" style=" font-family:Camellio ;font-size:20px;">Conditions d'admissions</a></li>
+         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Recherche Scientifique</a>
          <div class="dropdown-menu">
              <a class="dropdown-item" href="">Mémoires Licence3</a>
              <a class="dropdown-item" href="">Mémoire Master</a>
              <a class="dropdown-item" href=""></a>
          </div>
         </li>
-        <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Production Scientifique</a>
+        <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;" >Production Scientifique</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="">Projets terminés</a>
             <a class="dropdown-item" href="projetst.php">Projets en cours</a>
           </div>
-        </li>
-        <li class="navbar-item" id="con"> <a class="nav-link px-3" href="#connex" style="color:#fff">Espace Admin</a></li>
+        </li>      
+        <li class="navbar-item" id="con"> <a class="nav-link px-3" href="#connex" style="color:#fff; font-family:Camellio ;font-size:20px;">Espace Admin</a></li>
 
         </ul>
             </div>
@@ -180,7 +182,7 @@
 </div>
 
 <h3 class="bien"  style="padding:40px" >Formations</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:50px;background-color:#FF7E00;">
+<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:150px;background-color:#FF7E00;">
   <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gei.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
@@ -314,7 +316,7 @@
       </div>
 
     </div>
-    <div class="foot" style="background-color:#0f1a33;">
+    <div class="foot" style="background-color:#0f1a33;width:1358px;">
       <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
       <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
     </div> 

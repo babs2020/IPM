@@ -30,7 +30,7 @@
         <ul class="navbar-nav">
          <li class="navbar-item"> <a class="nav-link px-3" href="index.php">Accueil</a></li>
          <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="index.php#for">Formations</a></li>
-         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php">Actualité</a></li>
+         <li class="navbar-item" id="forma"> <a class="nav-link px-3" href="actu.php" style="color:white;">Actualité</a></li>
 
          <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown">Presentation</a>
           <div class="dropdown-menu">
@@ -495,7 +495,7 @@
   </div>
 
 </div>
-<div class="foot" style="background-color:#0f1a33;">
+<div class="foot" style="background-color:#0f1a33;width:1358px;">
   <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
   <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
 </div> 
