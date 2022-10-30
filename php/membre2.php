@@ -21,7 +21,7 @@
 <body>
 <header> 
       <nav class="navbar navbar-expand-md " >
-          <a class="navbar-brand" href=""> <img src="logo.jpeg" alt="" style="width:50px;border-radius:20%"></a>
+          <a class="navbar-brand" href=""> <img src="logo.jpeg" alt="" style="width:60px;border-radius:20%"></a>
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -63,7 +63,12 @@
       </nav>
     </header>
       <section>
-    
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <h3 style="text-align:center;font-family:Camellio;margin:50px;">Equipe des étudiants</h3>
     <div class="container" style="margin-bottom:100px">
         <div class="card">
