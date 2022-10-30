@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="entet" id="menu" >
-        <header> 
+        <header > 
       <nav class="navbar navbar-expand-md "  >
         <a class="navbar-brand" href=""> <img src="logo.jpeg" alt="" style="width:60px;border-radius:20%"></a>
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" >
@@ -182,7 +182,7 @@
 </div>
 
 <h3 class="bien"  style="padding:40px" >Formations</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:150px;background-color:#FF7E00;">
+<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:150px;background-color:#FF7E00;width:100%">
   <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gei.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
@@ -267,11 +267,11 @@
         margin: 50px auto;
     }
     </style>
-  <footer id="footer" >
+  <footer id="footer"  style="background-color:#0f1a33;width:100%">
 
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
-      <div class="col" style="margin:10px;min-width:200px ;height:300px">
-        <div class="card h-100">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="for">
+      <div class="col" style="margin:10px;min-width:100px ;height:300px">
+        <div class="card h-100" style="width:250px">
           <div class="card-body">
             <h5 class="card-title">Menu</h5>
             <ul>
@@ -286,8 +286,8 @@
           </div>
         </div>
       </div>
-      <div class="col" style="margin:10px;min-width:200px ;height:150px">
-        <div class="card h-100">
+      <div class="col" style="margin:10px;min-width:100px ;height:150px">
+        <div class="card h-100" style="width:250px">
           <div class="card-body">
             <h5 class="card-title">Contacts</h5>
             <a href="tel:+221772303092" target="_blank" class="btn btn-primary">Orange</a>
@@ -295,8 +295,8 @@
           </div>
         </div>
       </div>
-      <div class="col" style="margin:10px;min-width:200px ; height:150px">
-        <div class="card h-100">
+      <div class="col" style="margin:10px;min-width:100px ; height:150px">
+        <div class="card h-100" style="width:250px">
           <div class="card-body">
             <h5 class="card-title">Réseaux Sociaux</h5>
             <a href="#" class="fa fa-facebook" style="margin: 8px;"></a>
@@ -306,8 +306,8 @@
           </div>
         </div>
       </div>
-      <div class="col" style="margin:10px;min-width:200px ;height:150px">
-        <div class="card h-100">
+      <div class="col" style="margin:10px;min-width:100px ;height:150px">
+        <div class="card h-100" style="width:250px">
           <div class="card-body">
             <h5 class="card-title">Actualités Récentes</h5>
             <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
@@ -316,7 +316,7 @@
       </div>
 
     </div>
-    <div class="foot" style="background-color:#0f1a33;width:1358px;">
+    <div class="foot" style="background-color:#0f1a33;width:100%">
       <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
       <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
     </div> 

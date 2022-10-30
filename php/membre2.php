@@ -3,6 +3,7 @@
 <head>
      <!-- Required meta tags -->
    <!-- Required meta tags -->
+   <link rel="stylesheet" href="caroussels.css">
    <link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
    <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="style.css">
@@ -63,142 +64,16 @@
       </nav>
     </header>
       <section>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+
   <h3 style="text-align:center;font-family:Camellio;margin:50px;">Equipe des étudiants</h3>
-    <div class="container" style="margin-bottom:100px">
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg"  alt="rover" />
-          </div>
-          <div class="card-body" >
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-                Babacar Sow
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Mass GNING 
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body" >
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Mamadou Fadel DIOP
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-    
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Assane NDIAYE
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Thiery A BASSENE
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-       
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Massala Ma-sekghe ASTANEL
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Adama GUISSE 
-
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-header">
-            <img src="pdpf.jpg"  alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-             Ndeye coumba GUEYE
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-       
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Mouhamed BA
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-        
-        <div class="card">
+  <section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+      <div class="container" style="margin-bottom:100px">
+      <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -212,7 +87,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -226,7 +101,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -240,7 +115,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -254,7 +129,7 @@
           </div>
         </div>
      
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg"  alt="rover" />
           </div>
@@ -269,7 +144,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -283,7 +158,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -298,7 +173,7 @@
           </div>
         </div>
         
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -311,7 +186,146 @@
             </p>
           </div>
         </div>
-        <div class="card">
+    </div>
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+      <div class="container" style="margin-bottom:100px">
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg"  alt="rover" />
+          </div>
+          <div class="card-body" >
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+                Babacar Sow
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Mass GNING 
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body" >
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Mamadou Fadel DIOP
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+    
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Assane NDIAYE
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+      
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Thiery A BASSENE
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+       
+       
+      
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Adama GUISSE 
+
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+        
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdpf.jpg"  alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+             Ndeye coumba GUEYE
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+       
+        <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            Mouhamed BA
+            </h4>
+            <p>
+            </p>
+          </div>
+        </div>
+        
+
+    </div></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+      <div class="container" style="margin-bottom:100px"> 
+      <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -325,7 +339,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -339,7 +353,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -353,7 +367,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -366,7 +380,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
@@ -380,7 +394,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -393,21 +407,8 @@
             </p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <img src="pdp.jpg" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Informaticien</span>
-            <h4>
-            Cheikh SEYE
-
-            </h4>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div class="card">
+     
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -420,7 +421,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdpf.jpg" alt="rover" />
           </div>
@@ -434,25 +435,164 @@
             </p>
           </div>
         </div>
-        <div class="card">
+              
+
+    </div>
+      </div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <div class="container" style="margin-bottom:100px">
+          <div class="card" style="width:250px">
+            <div class="card-header">
+              <img src="pdp.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Informaticien</span>
+              <h4>
+                Massala Ma-sekghe ASTANEL
+              </h4>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width:250px">
+            <div class="card-header">
+              <img src="pdp.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Informaticien</span>
+              <h4>
+              Diabel KANDJI
+              </h4>
+            
+            </div>
+          </div>
+        
+      <div class="card" style="width:250px">
           <div class="card-header">
             <img src="pdp.jpg" alt="rover" />
           </div>
           <div class="card-body">
             <span class="tag tag-teal">Informaticien</span>
             <h4>
-            Diabel KANDJI
+            Cheikh SEYE
+
             </h4>
             <p>
             </p>
           </div>
-        </div>
+      </div>
+      <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            ******
+            </h4>
+            <p>
+            </p>
+          </div>
+      </div>
+      <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            ****
+            </h4>
+            <p>
+            </p>
+          </div>
+      </div>
+      <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            *****
+            </h4>
+            <p>
+            </p>
+          </div>
+      </div>
+      <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            ******
+            </h4>
+            <p>
+            </p>
+          </div>
+      </div>
+      <div class="card" style="width:250px">
+          <div class="card-header">
+            <img src="pdp.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Informaticien</span>
+            <h4>
+            ******
+            </h4>
+            <p>
+            </p>
+          </div>
+      </div>
     </div>
-    <footer id="footer" >
+    </div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+ 
+    <ol class="carousel__navigation-list">
+    
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+    
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
 
-<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
-  <div class="col" style="margin:10px;min-width:200px ;height:300px">
-    <div class="card h-100">
+    </div>
+    <footer id="footer"  style="background-color:#0f1a33;width:100%">
+
+<div class="row row-cols-1 row-cols-md-3 g-4" id="for">
+  <div class="col" style="margin:10px;min-width:100px ;height:300px">
+    <div class="card h-100" style="width:250px">
       <div class="card-body">
         <h5 class="card-title">Menu</h5>
         <ul>
@@ -467,8 +607,8 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ;height:150px">
-    <div class="card h-100">
+  <div class="col" style="margin:10px;min-width:100px ;height:150px">
+    <div class="card h-100" style="width:250px">
       <div class="card-body">
         <h5 class="card-title">Contacts</h5>
         <a href="tel:+221772303092" target="_blank" class="btn btn-primary">Orange</a>
@@ -476,8 +616,8 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ; height:150px">
-    <div class="card h-100">
+  <div class="col" style="margin:10px;min-width:100px ; height:150px">
+    <div class="card h-100" style="width:250px">
       <div class="card-body">
         <h5 class="card-title">Réseaux Sociaux</h5>
         <a href="#" class="fa fa-facebook" style="margin: 8px;"></a>
@@ -487,8 +627,8 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ;height:150px">
-    <div class="card h-100">
+  <div class="col" style="margin:10px;min-width:100px ;height:150px">
+    <div class="card h-100" style="width:250px">
       <div class="card-body">
         <h5 class="card-title">Actualités Récentes</h5>
         <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
@@ -497,11 +637,11 @@
   </div>
 
 </div>
-<div class="foot" style="background-color:#0f1a33;width:1358px;">
+<div class="foot" style="background-color:#0f1a33;width:100%">
   <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
   <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
 </div> 
-</footer>  
+</footer> 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
