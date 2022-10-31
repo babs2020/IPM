@@ -19,7 +19,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
      <title>IPM</title>
 </head>
-<body>
+<body style="overflow-x:hidden">
 
 <header > 
       <nav class="navbar navbar-expand-md " >
@@ -67,7 +67,7 @@
 
     <h3 style="text-align:center;font-family:Camellio;margin:50px;">Equipe Professorale</h3>
     <section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport">
+  <ol class="carousel__viewport" style="overflow-x:hidden">
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">
