@@ -67,7 +67,7 @@
 
     <h3 style="text-align:center;font-family:Camellio;margin:50px;">Equipe Professorale</h3>
     <section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport" style="overflow-x:hidden">
+  <ol class="carousel__viewport" style="overflow-x:hidden;">
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">
@@ -198,7 +198,7 @@
   </div>
   <div class="col" style="margin:10px;min-width:100px ;height:150px">
     <div class="card h-100" style="width:250px">
-      <div class="card-body">
+      <div class="card-body" style="display:inline-block">
         <h5 class="card-title">Contacts</h5>
         <a href="tel:+221772303092" target="_blank" class="btn btn-primary">Orange</a>
         <a href="tel:+22176 332 05 02" target="_blank" class="btn btn-primary">Tigo</a>
@@ -207,7 +207,7 @@
   </div>
   <div class="col" style="margin:10px;min-width:100px ; height:150px">
     <div class="card h-100" style="width:250px">
-      <div class="card-body">
+      <div class="card-body" style="display:inline-block">
         <h5 class="card-title">Réseaux Sociaux</h5>
         <a href="#" class="fa fa-facebook" style="margin: 8px;"></a>
         <a href="#" class="fa fa-whatsapp" style="margin: 8px;"></a>
@@ -220,7 +220,7 @@
     <div class="card h-100" style="width:250px">
       <div class="card-body">
         <h5 class="card-title">Actualités Récentes</h5>
-        <a href="" target="_blank" class="btn btn-primary">Voir Page</a>
+        <a href="actu.php" target="_blank" class="btn btn-primary">Voir Page</a>
       </div>
     </div>
   </div>

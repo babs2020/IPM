@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
-
+    <link rel="stylesheet" href="caroussels.css">
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="style.css">
     <!-- Required meta tags -->
@@ -18,7 +18,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
      <title>IPM</title>
 </head>
-<body>
+<body style="overflow-x:hidden">
     <header> 
       <nav class="navbar navbar-expand-md " >
           <a class="navbar-brand" href=""> <img src="logo.jpeg" alt="" style="width:60px;border-radius:20%""></a>
@@ -62,8 +62,15 @@
       </div>
       </nav>
     </header>
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:130px;margin-top:100px;">
-  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
+    <h3 style="text-align:center;font-family:Camellio;margin:50px;">Actualités</h3>
+    <section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport" style="overflow-x:hidden">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:10px;">
+  <div class="col" style="padding-left:90px;margin:5px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="semi.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -73,7 +80,7 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
+  <div class="col" style="margin:5px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="soutenance.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -83,7 +90,7 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
+  <div class="col" style="margin:5px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="concours.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -92,7 +99,7 @@
       </div>
     </div>
   </div>
-  <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
+  <div class="col" style="padding-right:90px;margin:5px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="recru.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
       <div class="card-body">
@@ -102,6 +109,65 @@
     </div>
   </div>
 </div>
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+      </div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+ 
+    <ol class="carousel__navigation-list">
+    
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+    
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
 <footer id="footer" >
 
 <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
@@ -123,7 +189,7 @@
   </div>
   <div class="col" style="margin:10px;min-width:200px ;height:150px">
     <div class="card h-100">
-      <div class="card-body">
+      <div class="card-body" style="display:inline-block">
         <h5 class="card-title">Contacts</h5>
         <a href="tel:+221772303092" target="_blank" class="btn btn-primary">Orange</a>
         <a href="tel:+22176 332 05 02" target="_blank" class="btn btn-primary">Tigo</a>
@@ -132,7 +198,7 @@
   </div>
   <div class="col" style="margin:10px;min-width:200px ; height:150px">
     <div class="card h-100">
-      <div class="card-body">
+      <div class="card-body" style="display:inline-block">
         <h5 class="card-title">Réseaux Sociaux</h5>
         <a href="#" class="fa fa-facebook" style="margin: 8px;"></a>
         <a href="#" class="fa fa-whatsapp" style="margin: 8px;"></a>
