@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+    <link href="http://fonts.cdnfonts.com/css/Camellio " rel="stylesheet">
     <link rel="stylesheet" href="caroussels.css">
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="style.css">
@@ -63,111 +68,96 @@
       </nav>
     </header>
     <h3 style="text-align:center;font-family:Camellio;margin:50px;">Actualités</h3>
+    <section style="height:500px;display: flex;align-items: center;justify-content:center;background: #f2f2f2;margin:0;
+  padding: 0;margin-bottom:300px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;">
+    
+      <div class="swiper mySwiper container" >
+      <div class="swiper-wrapper content">
+
+        <div class="swiper-slide card1" style="background-image:url(semi.jpeg);  background-size: cover; height:360px;border-radius:25px">
+          <div class="card-content" >
+          
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Séminaires</span>
+            </div>
+            <div class="button">
+              <button class="aboutMe">About</button>
+              <button class="hireMe">Date</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card1"  style="background-image:url(soutenance.jpeg);  background-size: cover;height:360px;border-radius:25px" >
+
+          <div class="card-content">
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Soutenances </span>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About</button>
+              <button class="hireMe">Date</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card1"  style="background-image:url(concours.jpg);  background-size: cover;height:360px;border-radius:25px;background-repeat:no-repeat">
+          <div class="card-content">
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Concours</span>
+            </div>
+            <div class="button">
+              <button class="aboutMe">About</button>
+              <button class="hireMe">Date</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card1"  style="background-image:url(recru.jpeg);  background-size: contain;height:360px;border-radius:25px">
+          <div class="card-content">
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Recrutements</span>
+            </div>
+            <div class="button">
+              <button class="aboutMe">About</button>
+              <button class="hireMe">Date</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
     <section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport" style="overflow-x:hidden">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper">
-      <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:10px;">
-  <div class="col" style="padding-left:90px;margin:5px;min-width:200px ; min-height:250px">
-    <div class="card h-100">
-      <img src="semi.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title">Séminaires</h5>
-        <a href="" target="_blank" class="btn btn-primary" style="background-color:#293245">Voir Page</a>
-
-      </div>
-    </div>
-  </div>
-  <div class="col" style="margin:5px;min-width:200px ; min-height:250px">
-    <div class="card h-100">
-      <img src="soutenance.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title">Soutenances</h5>
-        <a href="" target="_blank" class="btn btn-primary" style="background-color:#293245">Voir Page</a>
-
-      </div>
-    </div>
-  </div>
-  <div class="col" style="margin:5px;min-width:200px ; min-height:250px">
-    <div class="card h-100">
-      <img src="concours.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title">Concours</h5>
-        <a href="" target="_blank" class="btn btn-primary" style="background-color:#293245">Voir Page</a>
-      </div>
-    </div>
-  </div>
-  <div class="col" style="padding-right:90px;margin:5px;min-width:200px ; min-height:250px">
-    <div class="card h-100">
-      <img src="recru.jpeg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title">Recrutements</h5>
-        <a href="" target="_blank" class="btn btn-primary" style="background-color:#293245">Voir Page</a>
-      </div>
-    </div>
-  </div>
-</div>
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
-      </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper">
-      </div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
  
-    <ol class="carousel__navigation-list">
-    
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
-    
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
-      </li>
-    </ol>
-  </aside>
-</section>
 <footer id="footer" >
 
 <div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="background-color:#0f1a33;height:320px">
@@ -221,7 +211,28 @@
   <h3>2LIA : Laboratoire d’Intelligence Artificielle et Applications en Ingénierie</h3>
   <p style="padding-bottom:10px;">GALAXY EDU S. A. R. L</p>
 </div> 
-</footer>  
+</footer> 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
