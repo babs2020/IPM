@@ -85,7 +85,7 @@ tr:nth-child(even) {background-color: orange;}
       </nav>
     </header>
     <body>
-        <form action="" style="margin:50px;width:1000px">
+        <form action="" style="margin:50px;">
         <h2>Soutenances</h2>
             <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
                 <option selected>Formations</option>

@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+
+
     <link rel="stylesheet" href="caroussel.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -148,8 +149,8 @@
       <div class="card-body" style="background-color:#EEE8AA">
       <h5 class="card-title bn" style="text-align:center;">Organigramme
       <a href="https://codepen.io/grohit/"></a></h5>
-      <img src="orga.png" class="card-img-top" alt="..." style="height:200px;width:610px;margin-top:100px;">
-
+      
+      <img id="" src="orga.png" width="100%" height="auto">
       </div>
     </div>
   </div>
