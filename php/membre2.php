@@ -46,13 +46,8 @@
           </div>
          </li>
          <li class="navbar-item"> <a class="nav-link px-3" href="#fm" style=" font-family:Camellio ;font-size:20px;">Conditions d'admissions</a></li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Recherche Scientifique</a>
-         <div class="dropdown-menu">
-             <a class="dropdown-item" href="">Mémoires Licence3</a>
-             <a class="dropdown-item" href="">Mémoire Master</a>
-             <a class="dropdown-item" href=""></a>
-         </div>
-         </li>
+         <li class="navbar-item"> <a class="nav-link px-3" href="memoire.php" style=" font-family:Camellio ;font-size:20px;">Recherches scientifiques</a></li>
+
          <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Production Scientifique</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="">Projets terminés</a>

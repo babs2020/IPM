@@ -75,3 +75,14 @@ body {
   color: #545d7a;
 }
 
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+

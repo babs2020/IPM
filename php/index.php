@@ -44,13 +44,7 @@
          </div>
         </li>
         <li class="navbar-item"> <a class="nav-link px-3" href="#fm" style=" font-family:Camellio ;font-size:20px;">Conditions d'admissions</a></li>
-         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;">Recherche Scientifique</a>
-         <div class="dropdown-menu">
-             <a class="dropdown-item" href="">Mémoires Licence3</a>
-             <a class="dropdown-item" href="">Mémoire Master</a>
-             <a class="dropdown-item" href=""></a>
-         </div>
-        </li>
+        <li class="navbar-item"> <a class="nav-link px-3" href="memoire.php" style=" font-family:Camellio ;font-size:20px;">Recherche Scientifique</a></li>
         <li class="navbar-item dropdown"> <a class="nav-link dropdown-toggle px-3" href="" data-toggle="dropdown" style=" font-family:Camellio ;font-size:20px;" >Production Scientifique</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="">Projets terminés</a>
@@ -166,11 +160,11 @@
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px">
   <div class="col" >
     <div class="card">
-      <img src="pp.jpeg" class="card-img-top" style="width:100%;" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Partie Professorale</h5>
-        <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
-      </div>
+    <img src="pp.jpeg" class="card-img-top" style="width:100%;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Partie Professorale</h5>
+      <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
+    </div>
     </div>
   </div>
   <div class="col">
