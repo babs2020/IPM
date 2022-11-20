@@ -166,7 +166,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin:2px">
   <div class="col" >
     <div class="card">
-      <img src="pp.jpeg" class="card-img-top" style="width:100%;height:200px;" alt="...">
+      <img src="pp.jpeg" class="card-img-top" style="width:100%;" alt="...">
       <div class="card-body">
         <h5 class="card-title">Partie Professorale</h5>
         <a href="membre1.php" class="btn btn-primary" target="_blank">Voir Page</a>
@@ -175,7 +175,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="pe.jpeg" class="card-img-top" alt="..." style="width:100%;height:200px;">
+      <img src="pe.jpeg" class="card-img-top" alt="..." style="width:100%;">
       <div class="card-body">
         <h5 class="card-title">Partie Etudiante</h5>
         <a href="membre2.php" class="btn btn-primary" target="_blank">Voir Page</a>
@@ -186,7 +186,7 @@
 </div>
 
 <h3 class="bien"  style="padding:40px" >Formations</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="margin-bottom:150px;background-color:#FF7E00;width:100%">
+<div class="row row-cols-1 row-cols-md-3 g-4" id="for" style="padding-bottom:50px;margin-bottom:40px;background-color:#FF7E00;width:100%">
   <div class="col" style="margin:10px;min-width:200px ; min-height:250px">
     <div class="card h-100">
       <img src="gei.jpg" class="card-img-top" alt="..." style="width:100%;height: 200px;">
